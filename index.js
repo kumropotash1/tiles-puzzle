@@ -27,7 +27,7 @@ window.onload = () => {
   img.width = canvas.width;
   img.height = canvas.height;
 
-  img.src = "./squirrel.jpg";
+  img.src = "https://i.imgur.com/DYDEwIY.jpeg";
 
   const newGame = () => {
     ctx.clearRect(0, 0, canvas.width, canvas.height);
@@ -151,7 +151,7 @@ window.onload = () => {
             playAgainButton.addEventListener('click', () => {
               p.remove();
               playAgainButton.remove();
-              img.src = "./squirrel.jpg";
+              img.src = "https://i.imgur.com/DYDEwIY.jpeg";
             });
           }
         }
