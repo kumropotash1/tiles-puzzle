@@ -1,5 +1,5 @@
-const rowCount = 2;
-const colCount = 3;
+const rowCount = 4;
+const colCount = 4;
 
 class Tile {
   currentRow = 0;
@@ -25,7 +25,7 @@ window.onload = () => {
    */
   const canvas = document.getElementById('canvas');
 
-  canvas.width = 600;
+  canvas.width = 400;
   canvas.height = 400;
 
   const tileWidth = canvas.width / colCount;
